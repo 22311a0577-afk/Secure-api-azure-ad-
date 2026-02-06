@@ -18,7 +18,7 @@ public class DataController : ControllerBase
     {
         if (string.IsNullOrWhiteSpace(request?.Message))
         {
-            return BadRequest("Message is required");
+            return BadRequest("Message is required(added by master branch).");
         }
 
         var response = new
