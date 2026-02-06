@@ -5,4 +5,5 @@ namespace SecureApi.Models
     {
         public string Message { get; set; }
     }
+    //by serverlogic branch 
 }
