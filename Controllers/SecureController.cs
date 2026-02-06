@@ -7,6 +7,6 @@ public class DataController : ControllerBase
     [HttpGet]
     public IActionResult Get()
     {
-        return Ok("Secure data accessed 🎉");
+        return Ok("Secure endpoint using Azure AD authentication!");
     }
 }
